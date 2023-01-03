@@ -1,8 +1,10 @@
 :root {
     --bgcolor: rgb(165, 252, 223);
-    background-color: rgb(236, 250, 246);
 }
 
+body {
+    background-color: rgb(236, 250, 246);
+}
 .navbar {
     background-color: rgb(236, 250, 246);
 }
@@ -35,6 +37,10 @@
 #tagline {
     grid-area: tagline;
     font-size: 30px;
+}
+
+.card-text {
+    font-size: 18px;
 }
 
 .work {
@@ -109,6 +115,10 @@
     bottom: 48px;
 }
 
+#email {
+    font-size: 30px;
+}
+
 #skillz {
     display: flex;
     justify-content: center;
@@ -120,3 +130,13 @@
     bottom: 48px;
 }
 
+footer {
+    padding: 20px;
+    background-image: linear-gradient(
+    rgb(165, 252, 223),
+    rgb(236, 250, 246));
+    border: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 48px;
+}

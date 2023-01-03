@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="top" class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" id=portfolio href="#portfolio">Portflio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,31 +27,14 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutme">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactme">Contact Me</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li> 
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        -->
+              <a class="nav-link" href="#skillz">Skills</a>
+            </li>
         </div>
       </div>
     </nav>
@@ -62,78 +45,83 @@
       <p class="lead" id="tagline">An actor and front-end web developer.</p>
     </div>
 
-  <article class="work">
-    <div class="card" id="css-cheatsheet" style="width: 60rem;">
-      <img class="card-img-top" src="./assets/images/css-cheatsheet.png" alt="A screenshot of a CSS snippets 'cheatsheet' made by Philip Protheroe">
-      <div class="card-body">
-        <h5 class="card-title">CSS Cheatsheet</h5>
-        <p class="card-text">A CSS Cheatsheet with hover glow animations, gradient backgrounds and colour theme consistency.</p>
-        <a href="https://widowtwankey.github.io/CSS-Cheatsheet/" class="btn btn-primary">I want to see it!</a>
+    <article class="work">
+      <div class="card" id="css-cheatsheet" style="width: 60rem;">
+        <img class="card-img-top" src="./assets/images/css-cheatsheet.png" alt="A screenshot of a CSS snippets 'cheatsheet' made by Philip Protheroe">
+        <div class="card-body">
+          <h5 class="card-title">CSS Cheatsheet</h5>
+          <p class="card-text">A CSS Cheatsheet with hover glow animations, gradient backgrounds and colour theme consistency.</p>
+          <a href="https://widowtwankey.github.io/CSS-Cheatsheet/" class="btn btn-primary">I want to see it!</a>
+        </div>
       </div>
-    </div>
 
-    <div class="card" id="prework" style="width: 30rem;">
-      <img class="card-img-botlef" src="./assets/images/preworkweb.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Study Guide</h5>
-        <p class="card-text">A study guide created before the course began, as prework. The first webpage I made.</p>
-        <a href="https://widowtwankey.github.io/Prework-Study-Guide/" class="btn btn-primary">Take me there!</a>
+      <div class="card" id="prework" style="width: 30rem;">
+        <img class="card-img-botlef" src="./assets/images/preworkweb.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Study Guide</h5>
+          <p class="card-text">A study guide created before the course began, as prework. The first webpage I made.</p>
+          <a href="https://widowtwankey.github.io/Prework-Study-Guide/" class="btn btn-primary">Take me there!</a>
+        </div>
       </div>
-    </div>
 
-    <div class="card" id="hungrydata" style="width: 30rem;">
-      <img class="card-img-botrig" src="./assets/images/hungryhungrycaterpillar.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Hungry Hungry Data Caterpillar</h5>
-        <p class="card-text">A simple submission form with a 'Hungry Hungry Caterpillar' theme, created with other students as part of my coding course.  </p>
-        <a href="https://widowtwankey.github.io/HungryHungryCaterpillar/" class="btn btn-primary">To the page!</a>
+      <div class="card" id="hungrydata" style="width: 30rem;">
+        <img class="card-img-botrig" src="./assets/images/hungryhungrycaterpillar.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Hungry Hungry Data Caterpillar</h5>
+          <p class="card-text">A simple submission form with a 'Hungry Hungry Caterpillar' theme, created with other students as part of my coding course.  </p>
+          <a href="https://widowtwankey.github.io/HungryHungryCaterpillar/" class="btn btn-primary">To the page!</a>
+        </div>
       </div>
-    </div>
-  </article>
+    </article>
   
-  <br>
-  <br>
+    <br>
+    <br>
 
-  <section id="abtcont">
-  <div class="card" style="width: 40rem;">
-    <div class="card-body">
-      <h5 class="card-title">About Me</h5>
-      <p class="card-text">A recent graduate of The Royal Central School of Speech and Drama (BA Hons Acting Musical Theatre, 1st class honours), I've decided to keep learning and become a part time and freelance web developer. The interest began at an early age, just after I found acting, and I played around with learning Python and enjoyed the process of learning a new skill and applying it immediately to create something.</p>
+    <section id="abtcont">
+    <div class="card" style="width: 40rem;">
+      <div class="card-body" id="about">
+        <h5 class="card-title">About Me</h5>
+        <p class="card-text">A recent graduate of The Royal Central School of Speech and Drama (BA Hons Acting Musical Theatre, 1st class honours), I've decided to keep learning and become a part time and freelance web developer. The interest began at an early age, just after I found acting, and I played around with learning Python and enjoyed the process of learning a new skill and applying it immediately to create something.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="card" style="width: 40rem;">
-    <div class="card-body">
-      <h5 class="card-title">Contact Me</h5>
-      <p class="card-text">Email: <a href=mailto:phprotheroe@gmail.com>phprotheroe@gmail.com</a></p>
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Contact Me</h5>
+        <p id="email" class="card-text">Email: <a href=mailto:phprotheroe@gmail.com>phprotheroe@gmail.com</a></p>
+      </div>
     </div>
-  </div>
-</section>
+    </section>
 
-<section id="skillz">
-  <div class="card" style="width: 40rem;">
-    <div class="card-body">
-      <h5 class="card-title">Skills</h5>
-      <p class="card-text">In this course, the skills I expect to learn are: 
-        <ol>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>Javascript</li>
-          <li>Web, Server and Third Party APIs</li>
-          <li>ES6 and Node.js</li>
-        </ol>
-      </p>
-    </div>
-  </div>
-</section>
+    <section id="skillz">
+      <div class="card" style="width: 40rem;">
+        <div class="card-body" id="contact">
+          <h5 class="card-title">Skills</h5>
+          <p class="card-text">In this course, the skills I expect to learn are: 
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Javascript</li>
+              <li>Web, Server and Third Party APIs</li>
+              <li>ES6 and Node.js</li>
+            </ol>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="card" id="footCard">
+        <div class="card-body">
+          <p class="card-text">Thank you for visiting my Bootstrap Portfolio. Below, you'll find a button that lets you see all you've seen above, again.</p>
+          <a href="#top" class="btn btn-primary">From the top</a>
+        </div>
+      </div>
 
 
+    </footer>
 
-
-
-
-    </body>
-
+  </body>
 
 </html>
